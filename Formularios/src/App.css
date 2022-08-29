@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 40%;
+    border:1px solid #34302D;
+    box-shadow: 8px 8px 5px 0px #5B7A8C;
+    background-color: #395C78;
+}
+
+h1{
+    padding-right: 14px;
+    margin-bottom: 1%;
+}
+
+h2{
+    color: white;
+    text-shadow: -2px 2px 0 black,
+                  2px 2px 0 black,
+                 2px -2px 0 black,
+                -2px -2px 0 black;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+#selectCharacter > h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#selectCharacter{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectCharacter > div{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+#selectCharacter > img{
+    width: 23%;
+    margin-top: 2%;
+}
+
+#selectCharacter > div > label{
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 2%;
+    color: white;
+    text-shadow: -1px 1px 0 black,
+                  1px 1px 0 black,
+                 1px -1px 0 black,
+                -1px -1px 0 black;
+}
+
+
+#card > form{
+    width: 97%;
+    height: 92%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#inputsContainer{
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.8%;
+}
+
+#inputsContainer > label{
+    height: 13%;
+    margin-top: 3%;
+    width: 100%;
+    padding-top: 2%;
+    color: white;
+    text-shadow: -1px 1px 0 black,
+                  1px 1px 0 black,
+                 1px -1px 0 black,
+                -1px -1px 0 black;
+}
+
+#inputsContainer > label > input{
+    width: 100%;
+}
+
+#inputsContainer > button{
+    margin-top: 5%;
+    width: 40%;
+    height: 12%;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 3px 2px 5px 0px white;
+    background-color: #5B7A8C;
+    border:1px solid #34302D;
+}
+
+
+form > img{
+    width: 53%;
+    border: 1px solid #A9ADA0;
+    border-radius: 10px;
+}
+
+#outputText{
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#lostGame{
+    margin-top: 5%;
+    width: 45%;
+}
+
